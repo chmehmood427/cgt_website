@@ -6,8 +6,8 @@ body {
       font-smooth: always;
       -webkit-font-smoothing: antialiased;
       -moz-font-smoothing: antialiased;
-      
-      
+      /* min width */
+      min-width: 400px;
       width: auto !important;
     }
     
