@@ -6,8 +6,6 @@ body {
       font-smooth: always;
       -webkit-font-smoothing: antialiased;
       -moz-font-smoothing: antialiased;
-      /* min width */
-      min-width: 400px;
       width: auto !important;
     }
     
@@ -51,7 +49,7 @@ body {
     /*Toggle Menu*/
     
     #main-nav {
-      padding: 15px 0;
+      padding: 14px 0;
     }
     
     #main-nav .navbar-toggle {
@@ -130,18 +128,11 @@ body {
       top: 30%;
       color: #2096ba;
       background-color: rgba(255, 255, 255, 0.9);
-      /*border-radius: 0px 10px 10px 0px;*/
-      border-radius: 10px;
+      border-radius: 0px 10px 10px 0px;
     }
     
     .title {
-      padding: 5px 0px 0px;
-      /*padding-left: 20px;*/
-      text-align: center;
-    }
-    
-    .title-buttons {
-      text-align: center;
+      padding: 20px 40px;
     }
     
     .nav-btn {
