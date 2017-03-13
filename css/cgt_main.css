@@ -123,7 +123,7 @@ body {
       padding-bottom: 20px;
     }
     
-    .title-caption {
+    #title-caption {
       position: relative;
       top: 30%;
       color: #2096ba;
@@ -131,7 +131,7 @@ body {
       border-radius: 0px 10px 10px 0px;
     }
     
-    .title {
+    #title {
       padding: 20px 40px;
     }
     
