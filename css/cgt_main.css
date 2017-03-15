@@ -165,12 +165,14 @@ body {
     }
 
     figure {
-      margin: 0;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 400px;
       position: relative;
     }
 
     figure img {
-      max-width: 100%;
+      width: 100%;
       display: block;
       position: relative;
       z-index: 10;
@@ -180,24 +182,30 @@ body {
     figcaption {
       position: absolute;
       left: 0;
-      padding: 20px;
-      background: #2096ba;
+      background: #505050;
       color: #fff;
 
-      height: 80px;
+      height: 70px;
       width: 100%;
       top: auto;
       bottom: 0;
       text-align: center;
+      display: table;
+    }
+
+    figcaption p {
+      display: table-cell;
+      vertical-align: middle;
+      font-size: 18px;
     }
 
     figure:hover img,
     figure.cs-hover img {
-      transform: translateY(-80px);
+      transform: translateY(-70px);
     }
 
     .figure-container {
-      width: 340px;
+      width: 100%;
       padding: 20px;
       margin-left: auto;
       margin-right: auto;
