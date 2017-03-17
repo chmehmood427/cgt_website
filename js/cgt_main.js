@@ -1,6 +1,7 @@
 /* global $, google */
 $(document).ready(function() {
 
+  
   // Add scrollspy to <body>
   $("body").scrollspy({
     target: ".navbar",
@@ -161,5 +162,12 @@ $(document).ready(function() {
     map: map,
     icon: icon
   });
+
+  var w = $("#title-caption").css("width");
+  $("#title").css("opacity",0);
+    $("#title-caption").css("left", "-" + w).animate({left: 0}, 2000, function(){
+      $("#title").animate({opacity: 1}, 1000);
+    });
+  
 
 });
